@@ -1,0 +1,26 @@
+html,
+body,
+main,
+#landingpage,
+#grad {
+  height: 100%;
+  width: 100%;
+}
+
+#landingpage {
+  background: url(img/bkg1010estudio.jpeg);
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+#grad {
+  background-image: radial-gradient(transparent 5%, $background-05 97%);
+}
+
+#content {
+  background: $background-05;
+  height: 100%;
+  color: $textcolor;
+}
